@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background: hsl(210, 36%, 96%);
+    color: hsl(209, 61%,16%);
+    line-height: 1.5;
+    font-size: 16px;
+}
+h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: hsl(2o5, 86%,17%);
+    margin: 12px ;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.lorem-form{
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.paraAmountNum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-size: 20px;
+    color: hsl(205, 86%, 17%);
+}
+input{
+    padding: 4px 8px;
+    width: 48px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin: 0 8px;
+}
+.btn{
+    text-transform: uppercase;
+    background: transparent;
+    color: #222;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 700;
+    transition: all .3s linear;
+    border: 2px solid #222;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 6px 12px;
+}
+.btn:hover{
+    color: #fff;
+    background: #222;
+}
+.result{
+    width: 80vw;
+    margin: 16px 0;
+    /* margin-bottom: 32px; */
+
+   
+}
+.lorem-text{
+    padding-left: 135px;
+}
+@media screen and (min-width: 800px) {
+  
+    h3 {
+      font-size: 1.75rem;
+    }
+  
+    body {
+      font-size: 16px;
+    }
+ 
+    h3
+    {
+      line-height: 1;
+    }
+    
+  }
+  @media screen and (max-width:600px){
+        .lorem-text{
+            padding-left: 60px;
+        }
+  }
